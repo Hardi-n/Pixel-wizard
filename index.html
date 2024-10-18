@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIET Mentorship Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SLIET Mentorship Platform</h1>
+        <p>Connecting SLIET students with Computer Science faculty mentors</p>
+    </header>
+
+    <main>
+        <section id="mentors">
+            <h2>Available Mentors</h2>
+            <div class="mentor" id="mentor1">
+                <h3>Dr. John Doe</h3>
+                <p>Experience: 15 years in Software Engineering</p>
+                <p>Guidance areas: Career counseling, Project Development, Research Guidance</p>
+                <h4>Available Slots</h4>
+                <div class="slots">
+                    <button class="slot" onclick="bookSlot(this)">10:00 AM - 11:00 AM</button>
+                    <button class="slot" onclick="bookSlot(this)">11:00 AM - 12:00 PM</button>
+                    <button class="slot booked">02:00 PM - 03:00 PM (Booked)</button>
+                </div>
+            </div>
+
+            <div class="mentor" id="mentor2">
+                <h3>Prof. Jane Smith</h3>
+                <p>Experience: 10 years in Data Science</p>
+                <p>Guidance areas: Machine Learning, Data Analytics, Career Pathways</p>
+                <h4>Available Slots</h4>
+                <div class="slots">
+                    <button class="slot" onclick="bookSlot(this)">09:00 AM - 10:00 AM</button>
+                    <button class="slot booked">11:00 AM - 12:00 PM (Booked)</button>
+                    <button class="slot" onclick="bookSlot(this)">03:00 PM - 04:00 PM</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SLIET Mentorship Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
